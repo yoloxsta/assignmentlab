@@ -120,4 +120,3 @@ resource "aws_eip" "one" {
   associate_with_private_ip = "10.1.1.50"
   depends_on = [aws_internet_gateway.dev-gw]
 }
-# 9. Create Ubuntu web Server and install/enable apache2
